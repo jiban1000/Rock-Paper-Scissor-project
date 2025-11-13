@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>object</title>
+  </head>
+  <body>
+    <script>
+        const object1 ={
+            message:'Hello nepal'
+        };
+        const object2 = object1;
+        object1:message = 'nepal'
+        console.log(object1);
+        console.log(object2);
+
+
+
+        const object3 = {
+            message:'Good job'
+        };
+
+        console.log(object1 === object2);
+        console.log(object3 === object2);
+
+         const object4 = {
+            message:'right now',
+            price : 123
+            
+        };
+        
+
+        // const {message} = object4;
+        // console.log(message , price);
+
+        console.log(object4);
+
+        const object5 = {
+            message,
+           // method : function function1(){
+              //  console.log('Apple');
+           // }
+
+           method(){
+            console.log('method');
+           }
+        };
+
+        console.log(object5);
+    object5.method();
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
